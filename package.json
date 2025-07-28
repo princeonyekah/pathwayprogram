@@ -1,0 +1,16 @@
+{
+  "name": "quicktask",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd api && nodemon index.js",
+    "client": "cd frontend && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "mongodb": "^6.18.0"
+  }
+}

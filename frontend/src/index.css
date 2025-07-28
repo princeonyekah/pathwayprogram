@@ -1,0 +1,101 @@
+/* Reset + Modern Typography */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f2f5;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Centering Container */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Card UI */
+.task-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Heading */
+.task-card h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Input Section */
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.input-section input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.input-section button {
+  padding: 10px 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.input-section button:hover {
+  background: #0056b3;
+}
+
+/* Task List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background: #f9f9f9;
+  padding: 10px 14px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  transition: all 0.2s ease;
+}
+
+li:hover {
+  background: #ececec;
+}
+
+li button {
+  background: transparent;
+  border: none;
+  color: #888;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+li button:hover {
+  color: red;
+}
